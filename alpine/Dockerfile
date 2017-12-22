@@ -1,2 +1,2 @@
-FROM grihabor/pytest:python3.6-alpine
+FROM grihabor/pytest:alpine
 MAINTAINER Borodin Gregory <grihabor@mail.ru>
