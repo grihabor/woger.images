@@ -5,5 +5,7 @@ RUN apk update \
  && apk add --virtual .build-deps \
 	musl-dev \
 	gcc \
- && pip3 install --no-cache pathlib2 \
+ && pip3 install --no-cache-dir pathlib2 \
  && apk del .build-deps
+
+RUN pip3 install --no-cache-dir typing
